@@ -1,0 +1,13 @@
+package com.ssafy.ws.step3.service;
+
+import com.ssafy.ws.step3.dto.User;
+
+public class UserService implements IUserService {
+
+	@Override
+	public User login(String id, String pass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    import="com.ssafy.ws.step3.dto.Book"pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		</head>
+	<body>
+		<h1>도서 등록 결과</h1>
+		<h2>등록 도서 정보</h2>
+		<% 
+		
+		Book book = (Book) request.getAttribute("book"); 
+		%>
+		<table>
+			<tr>
+				<th>항목</th>
+				<th>내용</th>
+			</tr>
+			<tr>
+				<td>도서번호</td>
+				<td><%= book.getIsbn() %></td>
+			</tr>
+			<tr>
+				<td>도서명</td>
+				<td><%= book.getTitle() %></td>
+			</tr>
+			<tr>
+				<td>저자명</td>
+				<td><%= book.getAuthor()%></td>
+			</tr>
+			<tr>
+				<td>가격</td>
+				<td><%= book.getPrice() %></td>
+			</tr>
+			<tr>
+				<td>설명</td>
+				<td><%= book.getDesc() %></td>
+			</tr>
+		</table>
+		<a href="regist.jsp">추가등록</a>
+	</body>
+</html>

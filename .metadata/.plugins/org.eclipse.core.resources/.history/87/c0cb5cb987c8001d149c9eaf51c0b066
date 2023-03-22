@@ -1,0 +1,5 @@
+package com.ssafy.ws.step3.service;
+
+public interface IUserSevice {
+
+}

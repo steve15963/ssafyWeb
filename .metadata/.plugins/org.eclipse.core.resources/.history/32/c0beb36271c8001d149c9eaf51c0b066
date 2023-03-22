@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%@ include file="/include/header.jsp" %>
+	<!-- <jsp:include page=""/> -->
+	<!-- <jsp:foward page=""/> -->
+	<ul>
+		<li>
+			<a href="regist.html">도서등록</a>
+		</li>
+	</ul>
+</body>
+</html>

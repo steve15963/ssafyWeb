@@ -1,0 +1,8 @@
+package com.ssafy.ws.step3.dto;
+
+public class User {
+	private String id;
+	private String pass;
+	private String name;
+	
+}

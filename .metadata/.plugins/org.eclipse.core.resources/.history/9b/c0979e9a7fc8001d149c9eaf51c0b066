@@ -1,0 +1,8 @@
+package com.ssafy.ws.step3;
+
+public class Snippet {
+	<li>
+				<a href="<%= root %>/regist.html">도서등록</a>
+			</li>
+}
+

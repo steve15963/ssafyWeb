@@ -1,0 +1,5 @@
+package com.ssafy.ws.step3.dao;
+
+public interface IUserDao {
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.catalina.tribes.util.Arrays"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.service.BookServiceImpl"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.service.IBookService"/>
+</qualifiedTypeNameHistroy>

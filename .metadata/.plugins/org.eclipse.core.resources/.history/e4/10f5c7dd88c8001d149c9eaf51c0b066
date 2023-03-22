@@ -1,0 +1,24 @@
+package com.ssafy.ws.step3.service;
+
+import java.util.NoSuchElementException;
+
+import com.ssafy.ws.step3.dao.IUserDao;
+import com.ssafy.ws.step3.dao.UserDaoImpl;
+import com.ssafy.ws.step3.dto.User;
+
+public class UserServiceImpl implements IUserService {
+	private IUserService instance = new UserServiceImpl();
+	private IUserDao db;
+	private UserServiceImpl() {
+		db = UserDaoImpl.getInstance();
+	}
+	@Override
+	public User login(String id, String pass) throws NoSuchElementException{
+		User user = db.select(id);
+		if(user != null && user.getPass().equals(pass)) {
+			return user;
+		}
+		throw new NoSuchElementException();
+	}
+
+}

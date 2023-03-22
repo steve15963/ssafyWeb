@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="/basic//HelloServlet">Hello Servlet</a>
+	<a href="/basic/hello">Servlet`s LifeCycle</a>
+	<a href="/basic">Parameter Test</a>
+</body>
+</html>

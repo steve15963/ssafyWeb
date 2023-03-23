@@ -23,7 +23,7 @@ public class HelloServlet extends HttpServlet {
 		out.println("<html>");
 		out.println("<body>");
 		out.println("Hello servlet!!!");
-		out.println("¾È³ç ¼­ºí¸´!!!");
+		out.println("");
 		out.println("</body>");
 		out.println("</html>");
 	}

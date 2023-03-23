@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.dto.Book"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="org.apache.catalina.tribes.util.Arrays"/>
-<fullyQualifiedTypeName name="com.ssafy.ws.step3.service.BookServiceImpl"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.dao.IBookDao"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.util.DBUtil"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.service.UserService"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.dao.IUserDao"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.dao.UserDaoImpl"/>
+<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.exception.AuthenticationException"/>
 <fullyQualifiedTypeName name="com.ssafy.ws.step3.service.IBookService"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.service.IUserService"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.service.BookServiceImpl"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.service.UserServiceImpl"/>
+<fullyQualifiedTypeName name="com.ssafy.ws.step3.dto.User"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.ssafy.hw.step2.dto.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

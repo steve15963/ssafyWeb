@@ -20,12 +20,20 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="fsafsafas"/>
+			<item value="back_ws_04_3"/>
+			<item value="back_ws_03_3"/>
+			<item value="back_db_hw_03_2"/>
 			<item value="d2023-03-21"/>
 			<item value="ajax"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="fsafsafas"/>
+			<item value="back_ws_04_3"/>
+			<item value="back_ws_03_3"/>
+			<item value="back_db_hw_03_2"/>
 			<item value="d2023-03-21"/>
 			<item value="ajax"/>
 		</list>
